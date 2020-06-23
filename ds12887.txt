@@ -1,0 +1,75 @@
+Pinout
+
+1   MOT     Motorola or Intel bus timing Selector
+            0:  Intel
+            2:  Motorola
+
+2   n/a     pin not avialable
+3   n/a
+
+4   AD0     Multiplexed, Bidirectional Address/Data Bus  
+5   AD1
+6   AD2
+7   AD3
+8   AD4
+9   AD5
+10  AD6
+11  AD7
+
+12  GND     Ground
+
+13  ~CS     Chip Select
+
+14  AS      Address Strobe
+
+15  R/~W    Read/Write
+
+16  n/a 
+
+17  DS      Data Strobe
+
+18  ~RESET  Active-Low Reset Input
+
+19  ~IRQ    Active-Low Interrupt Request Output
+
+20  n/a     
+
+21  ~RCLR   Active-Low RAM Clear
+
+22  n/a
+
+23  SQW     Square-Wave Output
+
+24  VCC     Primary power supply.
+
+
+Matrix
+
+1   MOT             Fixed
+2   n/a     n/a
+3   n/a     n/a
+4   AD0                     I/O
+5   AD1                     I/O
+6   AD2                     I/O
+7   AD3                     I/O
+8   AD4                     I/O
+9   AD5                     I/O    
+10  AD6                     I/O
+11  AD7                     I/O
+12  GND             Fixed
+13  ~CS                     I/O
+14  AS                      I/O
+15  R/~W                    I/O
+16  n/a     n/a
+17  DS                      I/O
+18  ~RESET                  I/O
+19  ~IRQ                    I/O
+20  n/a     n/a
+21  ~RCLR                           Manual
+22  n/a
+23  SQW                                     LED
+24  VCC             Fixed
+
+Total       4       3       14      1       1
+
+

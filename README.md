@@ -1,7 +1,7 @@
 # DS1287
 
-Information and diagnostics to test the Dallas/Maxim DS1287 and related
-Real-time Clock and CMOS RAM devices
+Information and diagnostics to test the Dallas/Maxim DS1287 and compatible Real-time Clock and CMOS RAM devices, as well as a design to replace them useing a DS12885 chip, a watch crystal and a battery.
+
 
 ## Datasheet:
 
@@ -25,6 +25,10 @@ basename is given, if both a _.cpp_ and a _.h_ file exist, they are related.
 * _UI_ is a simple command line interface on the serial port, that handles typing
   commands.
 
+## Replacement design
 
+The _DS12887_ folder contains a KiCAD project with a simple design to replace the DS12887 with a DS12885 chip.
+
+The design is neither complete nor tested. At the moment it just looks good on KiCAD's 3D viewer.
 
 
